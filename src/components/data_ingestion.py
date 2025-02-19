@@ -1,8 +1,8 @@
 import os
 import sys
 import pandas as pd
-# from src.mlproject.exception import CustomException
-# from src.mlproject.logger import logging
+from src.exception import CustomException
+from src.logger import logging
 # from src.mlproject.utils import read_sql_data
 
 from sklearn.model_selection import train_test_split
@@ -41,4 +41,11 @@ class DataIngestion:
             )
 
         except Exception as e:
+            logging.info('Error occured while initiating data ingestion')
             raise CustomException(e,sys)
+
+
+if __name__=='__main__':
+    obj = DataIngestion()
+    train_data_path,test_data_path = obj.initiate_data_ingestion()
+    
