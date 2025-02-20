@@ -1,10 +1,12 @@
 numpy
 pandas
-mysql-connector-python
-pymysql
 scikit-learn
 matplotlib
 seaborn
 catboost
 xgboost
+Flask
+dill
+mlflow==2.2.2
+
 -e .
