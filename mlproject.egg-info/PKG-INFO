@@ -9,3 +9,6 @@ Requires-Dist: mysql-connector-python
 Requires-Dist: pymysql
 Requires-Dist: scikit-learn
 Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: catboost
+Requires-Dist: xgboost

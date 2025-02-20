@@ -1,0 +1,5 @@
+[2025-02-20 14:57:40,989] 10 root - INFO - The execution has started
+[2025-02-20 14:57:41,006] 28 root - INFO - Reading completed mysql database
+[2025-02-20 14:57:41,029] 37 root - INFO - Data ingestion completed
+[2025-02-20 14:57:41,077] 70 root - INFO - Reading the train and test file
+[2025-02-20 14:57:41,077] 23 root - INFO - Custom Exception
